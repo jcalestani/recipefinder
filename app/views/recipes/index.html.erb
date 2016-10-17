@@ -1,0 +1,16 @@
+<h1>Recipe Finder - <%= @search_term %></h1>
+
+<table border="1">
+	<tr>
+		<th>Image</th>
+		<th>Title</th>
+		<th>Social_rank</th>
+	</tr>
+	<% @recette.each do |recett| %>
+	<tr>
+		<td><%= link_to image_tag(recett["image_url"], size: "100x100"), recett["f2f_url"] %></td>
+        <td><%= link_to(sanitize(recett["title"]), recett["f2f_url"]) %></td>
+        <td><%= recett["social_rank"] %></td>
+	</tr>
+	<% end %>
+</table>
