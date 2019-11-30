@@ -11,7 +11,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'therubyracer', platforms: :ruby
 gem 'capybara', '~> 3.29.0'
-gem 'poltergeist', '~> 1.6.0'
+gem 'poltergeist', '~> 1.18.1'
 gem 'phantomjs', '~> 1.9.8.0'
 
 # Access an IRB console on exception pages or by using <%= console %> in views
