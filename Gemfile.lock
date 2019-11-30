@@ -44,7 +44,7 @@ GEM
     capybara (2.4.4)
       mime-types (>= 1.16)
       nokogiri (>= 1.10.4)
-      rack (>= 1.0.0)
+      rack (>= 1.6.11)
       rack-test (>= 0.5.4)
       xpath (~> 2.0)
     cliver (0.3.2)
